@@ -48,6 +48,6 @@ def predict(data: StudentInput):
     prediction = max(0.0, min(100.0, float(prediction)))
 
     return {
-        "study_hours": data.study_hours,
-        "prediction_score": round(prediction, 2)
-    }
+    "study_hours": data.study_hours,
+    "predicted_score": round(prediction, 2)
+}
