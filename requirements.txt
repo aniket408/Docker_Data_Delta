@@ -1,0 +1,6 @@
+fastapi  #
+uvicorn  #  redemed web server 
+scikit-learn
+joblib  # model creat use save and load
+pytest   # testing karvane kely use
+httpx   # api la request send 
